@@ -1,0 +1,33 @@
+
+  468  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+  469  curl 
+  470  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv > wilders.csv
+  471  grep France 2019 PHP > php_france_2019.csv
+  472  grep France 2019 PHP wilders.csv > php_france_2019.csv
+  473  France 2019 PHP wilders.csv > php_france_2019.csv
+  474  grep France,2019,PHP wilders.csv > php_france_2019.csv
+  475  grep Biarritz,Javascript > Biarritz.csv
+  476  grep Biarritz,Javascript wilders.csv > Biarritz.csv
+  477  grep Biarritz,JavaScript wilders.csv > Biarritz.csv
+  478  Biarritz,JavaScript wilders.csv > Biarritz.csv
+  479  sort Biarritz,JavaScript wilders.csv > Biarritz.csv
+  480  grep "Biarritz,JavaScript" wilders.csv > Biarritz.csv
+  481  grep "Biarritz,France,,JavaScript" wilders.csv > Biarritz.csv
+  482  grep "Biarritz,France,,JavaScript" wilders.csv > Biarritz.csv
+  483  grep "Biarritz,France,2018,JavaScript" wilders.csv > Biarritz.csv
+  484  grep "Biarritz" wilders.csv > Biarritz.csv
+  485  grep "Biarritz" wilders.csv > BiarritzVille.csv
+  486  grep "Javascript" wilders.csv > BiarritzVille.csv
+  487  grep "Biarritz" wilders.csv > BiarritzVille.csv
+  488  grep "Javascript" wilders.csv > BiarritzJs.csv
+  489  grep "Biarritz,France,2017,2018,2019,JavaScript" wilders.csv > Biarritz.csv
+  490  grep "Biarritz,France,2017,JavaScript" wilders.csv > Biarritz2017.csv
+  491  grep "Biarritz,France,2018,JavaScript" wilders.csv > Biarritz2018.csv
+  492  grep "Biarritz,France,2019,JavaScript" wilders.csv > Biarritz2019.csv
+  493  cat Biarritz2017.csv Biarritz2018.csv Biarritz2019.csv | sort -u > Biarritz.csv
+  494  grep "Toulouse,France,2017,JavaScript" wilders.csv > Toulouse2017.csv
+  495  grep "Toulouse,France,2018,JavaScript" wilders.csv > Toulouse2018.csv
+  496  grep "Toulouse,France,2019,JavaScript" wilders.csv > Toulouse2019.csv
+  497  cat Toulouse2017.csv Toulouse2018.csv Toulouse2019.csv | sort -u > Toulouse.csv
+  498  cat Toulouse.csv Biarritz.csv | sort -u > javascript_biarritz_toulouse.csv
+  512  history | tail -n 20
